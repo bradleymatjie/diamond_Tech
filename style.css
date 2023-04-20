@@ -17,12 +17,16 @@
   align-items: left;
 }
 .welcome_page .col h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
   font-style: italic;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  padding: 10px 0;
+  width: 50%;
 }
 .welcome_page .col p {
-  font-size: 0.8rem;
+  font-size: 1.8rem;
 }
 .welcome_page .col a {
   padding: 0.6rem 1rem;
@@ -35,6 +39,37 @@
 .welcome_page .col a:hover {
   background-color: orangered;
   box-shadow: 5px 5px 3px 1px orangered;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://thumbs.dreamstime.com/b/copybooks-cup-coffee-pencils-succulent-plant-white-background-space-text-142845815.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #252525;
+}
+.about > div {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 5px;
+}
+.about > div * {
+  text-shadow: 1px 1px 2px black;
+}
+.about > div :nth-child(2) {
+  font-size: 1.7rem;
+}
+.about > div a {
+  text-decoration: none;
+  padding: 10px 50px 10px 10px;
+  background-color: #252525;
+  color: whitesmoke;
 }
 
 @media (min-width: 700px) {
