@@ -72,6 +72,29 @@
   color: whitesmoke;
 }
 
+.products {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  align-items: center;
+}
+.products_container {
+  height: 70vh;
+  overflow: scroll;
+  padding-top: 10%;
+}
+
+.contact {
+  height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 700px) {
   .show {
     display: none;
