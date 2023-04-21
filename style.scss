@@ -9,7 +9,11 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  border-radius: 100% 0% 70% 30% / 100% 100% 0% 0% ;
+  border-radius: 100% 0% 70% 30% / 100% 100% 0% 0%;
+
+  @media (min-width: 900px) {
+    background-position: right;
+  }
   
   & .col {
     display: flex;
@@ -97,6 +101,18 @@
     height: 70vh;
     overflow: scroll;
     padding-top: 10%;
+    width: 500px;
+
+    @media (min-width: 1020px) {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-content: center;
+      gap: 10px;
+      padding-bottom: 50px;
+      overflow: hidden;
+    }
   }
 }
 
@@ -105,10 +121,25 @@
   height: 100vh;
   color: black;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+
+  &_btn {
+    width: 200px;
+    height: 40px;
+  }
+}
+
+
+footer {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 // NAV BAR VA ELEMENTS 
+
 .show {
   @media (min-width: 700px) {
     display: none;
@@ -119,5 +150,5 @@
 
   @media (max-width: 699px) {
     display: none;
-  } 
+  }
 }
