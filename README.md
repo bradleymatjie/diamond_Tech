@@ -1,4 +1,4 @@
-# Tasha's Restaurant
+# Diamond Tech
 [DEMO LINK](https://github.com/bradleymatjie/diamond_Tech.git)
 
 ## Technologies
