@@ -1,5 +1,5 @@
 # Diamond Tech
-[DEMO LINK](https://github.com/bradleymatjie/diamond_Tech)
+[DEMO LINK](https://bradleymatjie.github.io/diamond_Tech)
 
 ## Technologies
 Project is created with:
